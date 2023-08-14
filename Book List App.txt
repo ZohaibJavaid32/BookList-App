@@ -1,0 +1,19 @@
+- Static Methods: is a method that has a static keyword prepended to itself. Such methods cannot be accessed through instantiated objects but could be accessed through the class name. This is because static methods belong to the class directly.
+                  Inheritance even applies to static methods. Also, these methods can be invoked by non-static methods and even constructors. 
+                  Static methods are used to create utility functions and create objects that contain default information.Rather, the static method can only be accessed using the class name because it directly belongs to the class.
+
+- Local Storage : 
+   - Allows us to save key/value pairs in browser.
+   - Stores data with no expiration date.
+   - Data is not deleted on closing browser , and are available.
+   - the stored data is saved across browser sessions.
+   - local storage is similar to session storage except the local storage has no expiration time, session storage data gets cleared when the page session ends.
+   - Objects cannot be stored. It only allows strings to be stored.
+   - Browser (f12) -> Applicaton -> Local Storage 
+
+
+- Difference between innerHTML , innerText, textContent : 
+   - The innerHTML property returns the text content of the element, including all spacing and inner HTML tags.
+   - The innerText property returns just the text content of the element and all its children, without CSS hidden text spacing and tags, 
+     except <script> and <style> elements.
+   - The textContent property returns the text content of the element and all descendaces, with spacing and CSS hidden text, but without tags.
